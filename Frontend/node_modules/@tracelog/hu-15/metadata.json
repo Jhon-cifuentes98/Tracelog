@@ -1,0 +1,6 @@
+{
+  "name": "Gestión de Centros de Distribución",
+  "description": "Módulo administrativo para registrar, listar y gestionar centros de distribución y nodos logísticos de acopio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

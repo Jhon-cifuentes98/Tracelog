@@ -1,0 +1,16 @@
+{
+  "name": "@tracelog/hu-01",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tracelog/api-client": "1.0.0",
+    "@tracelog/hu-15": "0.0.0"
+  },
+  "devDependencies": {}
+}

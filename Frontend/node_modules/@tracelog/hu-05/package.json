@@ -1,0 +1,17 @@
+{
+  "name": "@tracelog/hu-05",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tracelog/api-client": "1.0.0"
+  },
+  "devDependencies": {}
+}

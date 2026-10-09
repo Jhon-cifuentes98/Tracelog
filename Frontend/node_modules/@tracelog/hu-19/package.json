@@ -1,0 +1,31 @@
+{
+  "name": "@tracelog/hu-19",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/components/AlertaTiempoEntrega.tsx",
+    "./ejemplos": "./src/ejemplos.ts"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "test": "node --import tsx --test src/components/AlertaTiempoEntrega.test.tsx src/ejemplos.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "1.47.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@vitejs/plugin-react": "6.1.2",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.21.0",
+    "typescript": "6.0.3",
+    "vite": "8.3.2"
+  }
+}
