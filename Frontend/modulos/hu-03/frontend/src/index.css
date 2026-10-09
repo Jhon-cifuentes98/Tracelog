@@ -1,0 +1,18 @@
+@import "../../../../global-theme.css";
+@import "tailwindcss";
+
+@theme {
+  --animate-fade-in: fade-in 0.2s ease-out;
+
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+}
+
+html, body, #root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}

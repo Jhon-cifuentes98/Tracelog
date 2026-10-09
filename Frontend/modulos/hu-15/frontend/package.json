@@ -1,0 +1,21 @@
+{
+  "name": "@tracelog/hu-15",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    "./fecha-estimada": "./src/utils/fechaEstimada.ts"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit",
+    "test": "node --import tsx --test src/utils/fechaEstimada.test.ts"
+  },
+  "dependencies": {
+     "@tracelog/hu-19": "1.0.0"
+  },
+  "devDependencies": {}
+}

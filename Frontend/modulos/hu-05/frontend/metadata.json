@@ -1,0 +1,6 @@
+{
+  "name": "Consultar Envío",
+  "description": "Aplicación para consultar el estado y rastreo de envíos mediante número de guía.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
